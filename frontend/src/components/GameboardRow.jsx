@@ -2,7 +2,7 @@ import Cell from "./Cell";
 
 import styles from "./GameboardRow.module.css";
 
-export default function GameboardRow() {
+export default function GameboardRow({word}) {
   const numCells = 5;
 
   return (
