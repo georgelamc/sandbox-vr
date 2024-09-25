@@ -1,5 +1,11 @@
 import Gameboard from "./Gameboard";
+import Keyboard from "./Keyboard";
 
 export default function App() {
-    return <Gameboard></Gameboard>;
+  return (
+    <div>
+      <Gameboard></Gameboard>
+      <Keyboard></Keyboard>
+    </div>
+  );
 }

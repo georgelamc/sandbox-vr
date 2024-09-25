@@ -1,4 +1,4 @@
-import Row from "./Row";
+import GameboardRow from "./GameboardRow";
 
 import styles from "./Gameboard.module.css";
 
@@ -6,9 +6,9 @@ export default function Gameboard() {
   const numRows = 6;
 
   return (
-    <div class={styles.gameboard}>
+    <div className={styles.gameboard}>
       {Array.from({ length: numRows }, (_, i) => (
-        <Row key={i}></Row>
+        <GameboardRow key={i}></GameboardRow>
       ))}
     </div>
   );
