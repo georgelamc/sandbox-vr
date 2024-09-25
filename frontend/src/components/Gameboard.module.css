@@ -1,5 +1,12 @@
 .gameboard {
+  width: 270px;
+
+  position: relative;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+
   display: flex;
-  gap: 5px;
   flex-direction: column;
+  gap: 5px;
 }
