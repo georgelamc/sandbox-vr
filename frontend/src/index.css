@@ -1,0 +1,15 @@
+:root {
+  --color-dark-grey: #787c7e;
+  --color-green: #6aaa64;
+  --color-light-grey: #f6f7f8;
+  --color-yellow: #c9b458;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  font-size: var(--font-size-regular);
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
