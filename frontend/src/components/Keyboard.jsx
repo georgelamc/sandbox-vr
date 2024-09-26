@@ -17,7 +17,7 @@ export default function Keyboard({ handleAdd, handleDelete, handleSave }) {
         handleDelete();
       } else if (event.key === "Enter") {
         handleSave();
-      } else if (event.key.length === 1) {
+      } else if (event.key.length === 1 && event.key.charCodeAt(0) >= 97 && event.key.charCodeAt(0) <= 122) {
         handleAdd(event.key);
       }
     };
