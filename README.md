@@ -1,1 +1,1 @@
-This is a take home assignment where the interview was cancelled. So this project is not finished.
+This is a take home assignment where the task was to create Wordle. The interview was cancelled, so the project is not finished.
